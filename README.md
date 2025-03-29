@@ -1,7 +1,8 @@
 # proxy-restful
-基于FastAPI 开发的 restful 风格的代理服务器, 内置集成了计费功能，支持 requests,cloudscraper 两种请求引擎
+基于FastAPI 开发的 restful 风格的代理服务器, 内置集成了计费功能，支持 requests,cloudscraper 两种请求引擎 
 
-#如何使用
+#如何使用 
+
 pip install -r requirement.ini
 
 修改config.py 中的数据库,Redis 配置,修改config.py 中的server_out_ips, 配置服务器支持的多张网卡的ip地址
